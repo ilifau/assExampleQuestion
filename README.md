@@ -10,12 +10,14 @@ Installation
 
 1. Copy the assExampleQuestion directory to your ILIAS installation at the following path 
 (create subdirectories, if neccessary):
-Customizing/global/plugins/Modules/TestQuestionPool/Questions/assExampleQuestion
+`Customizing/global/plugins/Modules/TestQuestionPool/Questions/assExampleQuestion`
 
-2. Go to Administration > Plugins
+2. Execute `php setup/cli.php build-artifacts` in `/var/www/html/` to register the plugin
 
-3. Choose "Install" for the assExampleQuestion plugin
-4. Choose "Activate" for the assExampleQuestion plugin
+3. Go to Administration > Plugins
+
+4. Choose "Install" for the assExampleQuestion plugin
+5. Choose "Activate" for the assExampleQuestion plugin
 
 There is nothing to configure for this plugin.
 
